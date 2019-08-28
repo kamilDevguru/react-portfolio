@@ -1,19 +1,23 @@
-* PORTFOLIO USING REACT
+# PORTFOLIO USING REACT
 
 <hr />
 
-** Project setup
+## Project setup
 ```
 git clone https://github.com/kamilDevguru/react-portfolio.git
 cd react-portfolio
 npm i
 ```
+
 <hr/>
-** Project run
+## Project run
+
 ```
 npm start
 ```
-** Project build
+
+## Project build
+
 ```
 npm run build
 ```
