@@ -1,9 +1,13 @@
 import React from 'react';
 
+import Header from './components/layout/Header'
+
 class App extends React.Component {
   render() {
     return (
-      <h1>My portfolio using React.js</h1>
+      <>
+        <Header />
+      </>
     )
   }
 }
