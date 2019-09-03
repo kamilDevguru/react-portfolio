@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from "react-scroll";
 
 import './Header.css';
 
@@ -11,8 +12,12 @@ class Header extends React.Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto justify-content-center header">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Link className="nav-link" to="home" spy={true} smooth={true} offset={50} duration={500}>
+              Home
+            </Link>
+            <Link className="nav-link" to="skills" spy={true} smooth={true} offset={50} duration={500}>
+              Skills
+            </Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#testimonials">Testimonials</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
