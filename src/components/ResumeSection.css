@@ -12,6 +12,7 @@
   border-left: 4px solid blueviolet;
   margin: 12px 0;
   box-shadow: 2px 4px 12px #888;
+  text-align: center;
 }
 
 #skills .skill-container {
