@@ -1,5 +1,6 @@
 .home-section {
   position: relative;
+  margin-top: -56px;
   height: calc(100vh + 56px);
   min-height: 500px;
   width: 100%;
