@@ -1,3 +1,25 @@
 #skills {
-  margin: 24px 16px;
+  padding: 120px 1.5rem 10px;
+  max-width: 1200px;
+  margin: 24px auto;
+}
+
+#skills .col-sm-2 {
+  border-right: 2px dotted #e9ecef;
+}
+
+#skills .skill {
+  border-left: 4px solid blueviolet;
+  margin: 12px 0;
+  box-shadow: 2px 4px 12px #888;
+}
+
+#skills .skill-container {
+  padding: 0 1.5rem;
+}
+
+#skills .skill-container .skill-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
