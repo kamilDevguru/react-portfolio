@@ -21,4 +21,4 @@ npm start
 npm run build
 ```
 
-Contact me(dan.devguru@gmail.com)
+Contact me(jhonny.devguru@gmail.com)
